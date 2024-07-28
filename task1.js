@@ -39,4 +39,4 @@ console.log(
     },
   ])
 );
-console.log(getUserNames(name));
+//console.log(getUserNames(name));
