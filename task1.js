@@ -41,3 +41,4 @@ console.log(
     },
   ])
 );
+console.log(getUserNames(name));
