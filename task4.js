@@ -3,6 +3,7 @@ const getTotalBalanceByGender = (users, gender) =>
     .filter((user) => user.gender === gender)
     .reduce((total, user) => total + user.balance, 0);
 
+// Kod do sprawdzenia poprawności działania funkcji
 const allUsers = [
   {
     name: "Moore Hensley",
